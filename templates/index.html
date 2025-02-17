@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Roshan Project</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">    
+</head>
+<body style="background-color:lavenderblush;">
+    <div>    
+        <div class="hello" style="background-color:{{col1}};">
+        <h1>  Hello World! </h1>
+        </div>
+    
+        <div class= "date_time" style="background-color:{{col2}};" >
+        <h1> Date and Time </h1>
+        <h2> {{utc_dt}} </h2>
+        <br>
+        </div>
+
+
+        <div class="resources" style="background-color:{{col3}};">
+            <div>
+                <h1> Resources </h1>
+                <h2>CPU: {{cpu}} </h2>
+                <h2>RAM: {{ram}}</h2>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

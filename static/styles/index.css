@@ -1,0 +1,79 @@
+.body {
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 6px;
+
+}
+
+.date_time {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 6px;
+  height: 150px;
+  width: 400px;
+  position: absolute;
+  top: 69px;
+  right: 0;
+  left: 578px;
+}
+
+.resources {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 6px;
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  top: 69px;
+  right: 76px;
+  left: 1169px;
+}
+
+.hello {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 100px;
+  text-align: center;
+  border-style: solid;
+  border-width: 8px;
+  border-color: black;
+  border-radius: 6px;
+
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  top: 69px;
+  right: 0;
+  left: 87px;
+}
+
+.red-text {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  text-align: center;
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 6px;
+  height: 200px;
+  width: 50%; 
+
+}
+
