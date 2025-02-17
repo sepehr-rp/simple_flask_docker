@@ -122,15 +122,21 @@ Steps:
  Running Web app
 ####################
 
+	1. Clone project
+		$ git clone https://github.com/sepehr-rp/simple_flask_docker.git
 
-	1. Add permission:
+	2. change directory:
+
+		$ cd simple_flask_docker.git
+
+	2. Add permission:
 	
 		$ sudo chmod 777 run.sh
 	
-	2. Run Script:
+	3. Run Script:
 		$ ./run.sh
 	
-	3. See 127.0.0.1:5000 on your browser
+	4. See 127.0.0.1:5000 on your browser
 	
 
 
