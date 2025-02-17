@@ -1,5 +1,5 @@
 FROM python:3.13.2-alpine
-WORKDIR /home/sepehr/DevOps/Roshan_Tasks/web_app 
+WORKDIR /code 
 ENV FLASK_APP=web_app.py
 ENV FLASK_RUN_HOST=0.0.0.0
 RUN apk add --no-cache gcc musl-dev linux-headers
