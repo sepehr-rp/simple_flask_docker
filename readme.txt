@@ -108,7 +108,7 @@ Steps:
 			@ Note:
 				we run socks5 proxy on localhost:1137 for bypassing filtering :)
 
-	6. update packe manager
+	6. update package manager
 		$ sudo apt update
 
 	7. install docker-ce docker-ce-cli containerd.io:
